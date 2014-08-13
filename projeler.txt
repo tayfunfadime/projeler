@@ -1,0 +1,59 @@
+EGE ÜNİVERSİTESİ BİLGİSAYAR MÜHENDİSLİĞİ 2 SENE BOYUNCA YAPILAN PROJELER
+DATA STRUCTURES  (Visual Studio Ultimate 2010 C#)
+PROJE-1
+Arrays, Matrices, Methods, Random Numbers
+1)The Birthday Paradox
+Bu paradox der ki; bir odada 23 kişiden fazla n sayıda kişi olsun. Bu n sayıda kişilerden iki tanesinde aynı doğum günü çakışma olasılığı %50 den fazladır.
+2)Öğrenci Yerleştirme
+Öğrencilerin 9 ülkedeki (ENG, GER, FRE, ITA, ESP, USA, JAP, CHN, RUS)
+üniversitelerden birisine 3. sınıfta 1 seneliğine okumak için gideceği
+düşünülmekte ve yerleştirmeyi yapan yazılım istenmektedir.
+PROJE-2
+Otoparktan araba çıkarma;
+1)
+Bir fabrikadan üretim hatası ile çıkan arabalar, daha sonra kaza testlerinde kullanılmak için bir otoparka yerleştirilmektedir. Otomobiller, otoparkın ilk yani 1. katına bir kuyruk, 2. katına bir yığıt ve 3. katına da bir dairesel bağlaçlı liste düzeninde yerleştirilip alınmaktadır. 
+Arabalar sadece 1. kattan çıkabilmektedir ve 1 adet araba kaza testi için otoparktan alınmaktadır. Ardından 2. kattaki yığıttan bir araba 1. kata, 3. kattaki bağlaçlı listeden de bir araba 2. kata inmektedir. Sadece arabaların bağlaçlı liste düzeninde yerleştirildiği katlarda, alınacak araba balon problemine benzer şekilde n adet araba atlanarak seçilmekte ve bağlaçlı listelerde kalınan yer tutulmaktadır.
+2)
+Bir otoparkta sürücüleri içlerinde olan N adet arabanın otoparktan çıkarken bir kuyruk oluşturdukları düşünülmekte ve her birinin çıkış işleminin 15 saniye ile 250 saniye arasında rastgele bir zaman aldığı varsayılmaktadır. Bir araba çıkmadan diğer araba çıkış işlemine başlayamamaktadır. Her bir arabanın işi biterek kuyruktan çıkarıldığında işlem tamamlanma süresini listelenen ve N araba için ortalama işlem tamamlanma süresini hesaplatan program geliştirmemiz istenmektedir.
+Ayrıca aynı işlemi aynı değerleri kullanarak, işlem süresi en kısa olan araba ilk(öncelikli) çıkacak şekilde tasarlayarak FIFO kuyruğa göre daha az bekleyen arabalar da listelenmektedir.
+Aynı işlemleri 3 çıkışlı otopark için de gerçekleştiren yazılımı geliştirmemiz istenmektedir.
+PROJE 3
+Alternative simple personal project
+1)Tree
+Ülke sınıfı ülke adı, sıra numarası ve nüfustan oluşmaktadır.Her ülkenin adı, sıra numarası nüfusu Ülke tipinden nesne dizisinde tutulmaktadır.Bu sınıf kullanılarak ağaca ekleme yapılmaktadır. Ayrıca bu sınıf hash tablosunda ülke adına göre ve nüfusa göre eklemede kullanılmaktadır.
+TreeNode sınıfı Tree sınıfında kullanılcacak düğümdür. Bu sınıf data, leftchild ve rightchild tutmaktadır. Leftchild ve rightchil kendi tipinden olup ağaçta çocuklara erişebilmek için kullanılmıştır.
+Tree sınıfı ikili arama ağacı şeklinde oluşturulmuştur.Ekle metodunda ağaca eleman eklenir. Derinlik metodunda ağacın düzeyi/derinliği bulunur, etkin olabilmesi için recursive kullanılmıştır.Elemansay metodu ağaçtaki eleman sayısını bulur. Ortderinlik metodu ağaçın ortalama derinliğini bulur. Güncelle metodu ise ülke sınıfında o ana kadar eklenmemiş olan nüfuslar her ülke için güncelleniyor.
+2)Heap
+Node sınıfı veriyi tutar, heap te kullanılmak üzere tasarlandı.
+Heap sınıfı isEmpty, insert, trickleup, trickledown, remove, change ve display metodlarından oluşur. isEmpty metodu heap dizisinde eleamn olup olmadığını kontrol eder. insert sınıfı diziye yeni eleman ekler. Eleman ilk olarak en sona eklenir, daha sonra trickleup metoduyla elemanın ağaçtaki değeri bulunur. Çünkü heap e göre ağacın root u max veya min elemandır. Bu koda göre max tır. Max eleman root olup  çocuklar parentlarından küçüktür. Bu yüzden tricleup la elemanın yeri bulunur. remove metodunda ise eleman silinir.  Silinen eleman kök olur. Yerine geçecek elemanı düzenlenek içinse trickledown devreye girer. Change metodu belirli bir indeksteki elemanın değerinin değiştirilmesidir. Bu metodda veri değiştiği için dolayısıyla ağaçın azalan şekilde olması göz önüne alındığından verinin değerine göre trickleup veya trickledown metodları kullanılır. Display metodu ise görüntüleme metodudur. Dizideki elemanları çıkartarak ağaç şeklinde listeler.
+3)Selection Sort / Shell Sort
+ArraySel sınıfı selection sort işlemi yapar. Bu sınıfta insert, display, selection sort, swap metodları vardır. insert metodu diziye eleman ekler, elemna sona eklenir ve eleman sayısı takip edilir. Display metodu diziyi görüntüler. Selection sort metodu dizideki elemanları seçerek sıralar . swap metodu ise sıralama esnasında kullanılan metoddur, iki elemanın indeksteki yerlerini değiştirir.
+ArraySh sınıfı shell sort işlemi yaparBu sınıfta insert, display, shellsort metodları vardır. insert metodu diziye eleman ekler. Display metodu görüntületir. Shellsort metodu diziyi gruplayarak sıralar.
+PROJE 4
+Alternative simple personal project
+1)Application of heap array
+2)Dijkstra’s Shortest Path
+3)Prim’s MST(minimum spanning tree)
+4)Depth First Traverse
+
+PROGRAMMING LANGUAGES (Codeblocks C)
+PROJE 1
+Lexical Analyser
+Fortran 77 nin kurallarına uygun sınırlı özellikte bir lexical analyser programlanmıştır.
+PROJE 2
+Interpreter Implemantation
+Calcula adında bir program için interpreter programlanmıştır.Lexical analayser, parser ve code generator ı olan bir interpreter programlanmıştır.
+ALGORİTMA ve PROGRAMLAMA (Codeblocks C and C++)
+1)Öğrenci Takip Sistemi
+4 Defa yapılmıştır.Herbirinin yöntemi farklıdır;
+	1.dizi ve fonksiyonlar ve iterationlar kullanılarak yapılmıştır,
+	2.dosya yöntemleriyle yapılmıştır.
+	3.hashing, bağlı listeler, struct veri yapılarıyla yapılmıştır.
+	4.C++ ta operator overloading kullanılarak da 5 classtan oluşan bir program yazılmıştır.
+2)Kare Bulmaca Oyunu
+Matrisler kullanılarak yapılmıştır.
+3)Şans Oyunları
+Random fonksiyonu kullanılarak şans oyunları yapılmıştır.
+
+Not: Proje/ders sıralaması  şöyledir; algoritma ve programalama(1.sınıf),data structures(2.sınıf), programming languages (2.sınıf)
+Yapılan projeler okul projeleridir.Alternative Personal Simple Project haricindekiler takım halinde yapılmıştır. Alternative Personal Simple Project tarafımdan yapılan biireysel projelerdir ve yine okul projesidir.
